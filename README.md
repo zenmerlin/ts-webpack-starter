@@ -20,4 +20,5 @@ source files for changes and automatically rebuild and refresh the browser.
 References:
 
 <https://www.typescriptlang.org/docs/handbook/react-&-webpack.html>
+
 <https://webpack.github.io/docs/webpack-dev-server.html#automatic-refresh>
