@@ -21,4 +21,4 @@ References:
 
 <https://www.typescriptlang.org/docs/handbook/react-&-webpack.html>
 
-<https://webpack.github.io/docs/webpack-dev-server.html#automatic-refresh>
+<https://webpack.github.io/docs/webpack-dev-server.html>
