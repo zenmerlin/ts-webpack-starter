@@ -1,5 +1,5 @@
 # ts-webpack-starter
-Starter project for a basic TypeScript application using webpack. 
+Starter project for a basic TypeScript application using webpack and React. 
 
 ## Getting Started ##
 
