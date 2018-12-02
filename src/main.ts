@@ -12,11 +12,12 @@ function sayHello(divName: string, person: Person) {
   elem.innerText = greet(person);
 }
 
-let person: Person = { firstName: "Ginger", lastName: "Boyll" };
+let person: Person = { firstName: "Person", lastName: "One" };
 
-let student: Student = new Student("Jason", "A.", "Boyll");
+let student: Student = new Student("Person", "2", "Two");
 
 let mainDiv = document.createElement("div");
 mainDiv.setAttribute("id", "content");
+document.body.appendChild(mainDiv);
 
 sayHello("content", student);
