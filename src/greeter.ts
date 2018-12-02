@@ -1,3 +1,19 @@
-export function greet(name: string) {
-    return `Hello, ${name}!`;
+export interface Person {
+    firstName: string;
+    lastName: string;
+}
+
+export class Student {
+    fullName: string;
+    constructor(
+        public firstName: string,
+        public middleInitial: string,
+        public lastName: string
+    ) {
+        this.fullName = `${firstName} ${middleInitial} ${lastName}`;
+    }
+}
+
+export function greet(person: Person) {
+    return `Hello, ${person.firstName} ${person.lastName}!`;
 }
