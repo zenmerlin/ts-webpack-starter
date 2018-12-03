@@ -1,14 +1,10 @@
-import { greet } from "./greeter";
-import { Person } from "./greeter";
-import { Student } from "./greeter";
+import { greet, Person, Student } from "./greeter";
 import "./style.css";
-// error: cannot find module zen_circle?
-// import Pic from "./zen_circle.png";
+import zenCircle from "./zen_circle.png";
 
 function sayHello(divName: string, person: Person) {
   const elem = document.getElementById(divName);
   elem.classList.add("hello");
-  // elem.appendChild(new Image().src = Pic);
   elem.innerText = greet(person);
 }
 
@@ -21,3 +17,9 @@ mainDiv.setAttribute("id", "content");
 document.body.appendChild(mainDiv);
 
 sayHello("content", student);
+
+let imageDiv = document.createElement("div");
+let myImage = new Image();
+myImage.src = zenCircle;
+imageDiv.appendChild(myImage);
+document.body.appendChild(imageDiv);
