@@ -1,4 +1,4 @@
-# ts-webpack-starter
+# ts-webpack-starter (deprecated--no longer maintained/used)
 Starter project for a basic TypeScript application using webpack. 
 
 ## Getting Started ##
